@@ -1,0 +1,90 @@
+@media only screen and (max-width: 992px) {
+  .container {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  .navbar-expand .navbar-nav a {
+    font-size: 20px;
+  }
+  .SideBarImg h1 {
+    margin-top: 100px;
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .PricingAreas,
+  .WebScraping,
+  .FooterText {
+    padding: 50px 0;
+  }
+
+  .PricingBox h4 {
+    font-size: 28px;
+    margin-top: 40px;
+  }
+  .PricingBox {
+    min-height: auto;
+    padding: 0 20px 40px 20px;
+  }
+  .FooterText p {
+    font-size: 34px;
+  }
+
+  .FooterText {
+    margin-top: 80px;
+  }
+  .FooterText img {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  .FooterArea {
+    margin-top: 30px;
+  }
+  .pricing-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  // store page
+  .Datacenter {
+    margin-top: 45px;
+  }
+
+  .UptimeP p {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .subscription > h3 {
+    /* width: 40%; */
+    font-size: 28px;
+    margin-top: 80px;
+  }
+  .Setup h2 {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 765px) {
+}
+
+@media only screen and (max-width: 565px) {
+  .SideBarImg h1 {
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .FooterText p {
+    font-size: 30px;
+  }
+  .FooterText {
+    margin-top: 0;
+  }
+  .FooterText img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 480px) {
+}

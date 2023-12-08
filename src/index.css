@@ -1,0 +1,529 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none !important;
+}
+.html {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+.body {
+  overflow-x: hidden !important;
+}
+
+.HomePageBG {
+  background: url("../src/assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100% !important;
+  height: auto;
+  position: relative;
+  
+
+
+}
+.HomePageBG:after {
+  content: "";
+  position: absolute;
+  background: url(../public/sideBGHome.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+
+}
+.DownBG {
+  padding-bottom: 250px;
+}
+.StoreDownPadding {
+}
+.TextEffect {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(51, 129, 241, 1) 35%,
+    rgba(51, 129, 241, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: start;
+}
+.Activetext {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: start !important;
+  color: #fff !important;
+}
+.ListBox {
+  width: 80%;
+  margin: auto;
+}
+.HeroArea {
+  max-width: 880px;
+  margin: 0 auto;
+}
+.HeroP {
+  margin-top: 15px !important;
+  max-width: 680px;
+  margin: 0 auto;
+  /* width: 40%;
+  margin: auto; */
+  color: #9fa8bc !important;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.HeroImg {
+  /* width: 75%; */
+  margin: auto;
+}
+
+
+.SideBarImg h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.Companies p {
+  margin-top: 50px;
+  color: #9fa8bc;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+/* .Companies {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 100px;
+} */
+.WebScraping {
+  padding: 80px 0;
+}
+.WebScraping h3 {
+  /* width: 45%;
+  margin: auto; */
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-top: 100px;
+}
+.WebScraping p {
+  color: #9fa8bc;
+  max-width: 680px;
+  /* width: 35%; */
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+
+.BoxArea {
+  /* width: 75%;
+  margin: auto; */
+}
+.StepOneBox {
+  height: auto;
+  width: 100%;
+  background: url("../public/boxBG.png");
+  background-size: cover;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+.StepOneBox h4 {
+  text-align: center;
+  color: #fff;
+  width: 78%;
+  font-size: 25px;
+  margin: auto;
+  margin-top: 30px;
+}
+.StepOneBox p {
+  width: 60%;
+  font-size: 13px;
+}
+
+.StepOneBox2 {
+  height: auto;
+  background: url("../public/boxBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  padding: 10px;
+}
+.StepOneBox2 h4 {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  font-size: 20px;
+  margin: auto;
+}
+
+.StepOneBox2 p {
+  width: 100%;
+  font-size: 12px;
+}
+
+.StepOneBox3 {
+  height: auto;
+  background: url("../public/boxBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  padding: 20px;
+}
+
+.StepOneBox3 h4 {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  font-size: 25px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.StepOneBox3 p {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.PricingBox {
+  background-color: #040619;
+  /* width: 90%; */
+  min-height: 400px;
+  border: 1px solid rgb(50, 49, 49);
+  border-radius: 50px;
+}
+
+.TopText {
+  background-color: #3381f1;
+  color: #fff !important;
+  padding: 3px;
+  text-align: center;
+  width: 30%;
+  padding-left: 20px;
+  border-radius: 20px;
+  margin-top: -20px;
+  margin-left: 50px;
+  padding-right: 20px;
+}
+.TopText1 {
+  background-color: #3381f1;
+  color: #fff !important;
+  padding: 3px;
+  text-align: center;
+  /* width: 10%; */
+  padding-left: 20px;
+  border-radius: 20px;
+  margin-top: -32px;
+  margin-left: 50px;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.PricingBox h4 {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+.PricingAreas {
+  padding: 80px 0;
+}
+.PricingBox p {
+  color: #9fa8bc;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  width: 85%;
+}
+
+.FooterText {
+  /* padding: 80px 0; */
+  margin-top: 150px;
+  border-top: 1px solid #030a20;
+  -webkit-box-shadow: inset 0px 10px 10px 0px rgba(3, 10, 32, 1);
+  -moz-box-shadow: inset 0px 10px 10px 0px rgba(3, 10, 32, 1);
+  box-shadow: inset 0px 10px 10px 0px rgba(3, 10, 32, 1);
+}
+
+.FooterText p {
+  font-size: 40px;
+  color: #fff;
+  /* width: 55%; */
+  max-width: 870px;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+}
+.FooterArea {
+  border-top: 5px solid #030a20;
+  margin-top: 200px;
+}
+.footer {
+  width: 70%;
+  margin: auto;
+}
+
+.FooterText img {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 80px;
+  height: 80px;
+}
+
+.FooterArea a {
+  text-decoration: none;
+  color: #3c404f;
+}
+
+.about-company {
+  display: flex;
+  justify-content: center;
+}
+.about-company p {
+  font-size: 12px;
+  color: #9fa8bc !important;
+  /* margin-top: 30px; */
+  margin-bottom: 0;
+}
+.links h4 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #9fa8bc;
+}
+.links li {
+  list-style: none;
+}
+.about-company img {
+  width: 20px;
+  height: 20px;
+}
+
+/* store page bg  */
+
+.StoreBG {
+  background: url("../public/store.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100% !important;
+  height: auto;
+}
+
+.storeHero {
+  margin-top: 100px;
+}
+
+.PurchaseVPN h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.PurchaseVPN p {
+  color: #9fa8bc;
+  font-size: 15px;
+  text-align: center;
+}
+.Datacenter {
+  margin-top: 115px;
+}
+.Datacenter h4 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.HostingPrice {
+  text-align: center;
+  color: #d8d8d9 !important;
+  border: 1px solid rgb(49, 48, 48);
+  border-radius: 50px;
+  width: 90px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 12px !important;
+  padding: 2px;
+  font-weight: 600;
+  /* margin-left: 190px; */
+}
+
+.Datacenter p {
+  text-align: center;
+  color: #9fa8bc;
+  font-size: 12px;
+}
+
+.PurchaseBox {
+  background: url("../public/pricingVpnBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 80%; */
+  height: auto;
+  margin: auto;
+  padding: 0px;
+  border: 2px solid #0e1025;
+  border-radius: 70px;
+  margin-top: 100px;
+  border-bottom: none;
+}
+
+.PurchaseBox 
+.UptimeBox li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.UptimeBox table {
+  border-radius: 50px !important;
+}
+.subscription {
+  padding-bottom: 200px;
+  width: 80%;
+  margin: auto;
+}
+.subscription > h3 {
+  /* width: 40%; */
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  margin-top: 150px;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+  font-weight: 500;
+}
+.SubsBox {
+  background: url("../public/subcs.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* width: 89%;
+  height: 460px; */
+  height: 479px;
+  overflow: hidden;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+.SubsBox h3 {
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  /* margin-top: 100px; */
+}
+
+.SubsBox p {
+  text-align: center;
+  color: #9fa8bc;
+  /* margin-top: 20px; */
+}
+
+.Setup {
+  /* width: 85%; */
+  margin: auto;
+  padding-bottom: 100px;
+}
+.Setup h2 {
+  font-size: 80px;
+}
+.SetupBox {
+  background: url(../public/setupbox.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 380px;
+  height: 330px;
+  overflow: hidden;
+}
+
+.SetupBox h3 {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.SetupBox p {
+  text-align: center;
+  color: #9fa8bc;
+}
+
+.Setup img {
+  margin-bottom: 100px;
+  width: 450px;
+  height: auto;
+}
+
+.UptimeBox {
+  background: url("../public/vpnBox.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 103.5%;
+  height: 360px; */
+  /* margin-left: -20px; */
+  border-radius: 50px;
+  margin-bottom: -20px;
+  border: 1px solid #0e1025;
+}
+
+.UptimeP {
+  margin-top: 25px;
+}
+.UptimeP p {
+  color: #fff;
+  font-size: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.CheckIcons {
+  margin-top: 25px;
+}
+.CheckIcons p {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+.navbar-expand .navbar-nav a {
+  font-size: 24px;
+}
+.navbar-expand .navbar-nav svg {
+  height: 30px;
+  width: 30px;
+}
+
+.pricing-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 30px;
+}
+
+.NavbarAreaS {
+  padding-bottom: 50px;
+}
